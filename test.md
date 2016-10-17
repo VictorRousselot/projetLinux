@@ -1,4 +1,4 @@
-# **Le processus de démarrage du système gnu-Linux consiste en un certain nombre d'étapes (ou d'enchainements) tels que :**
+**Le processus de démarrage du système gnu-Linux consiste en un certain nombre d'étapes (ou d'enchainements) tels que :**
 * Lecture du BIOS
 * Lecture du MBR ou Master Boot Record
 * Lancement du chargeur Grub ou Lilo
