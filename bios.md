@@ -15,6 +15,11 @@ Le BIOS ou en anglais *Basic Input Output System* (système d'entrée sortie de 
 
 Si votre PC ne démarre pas (ou ne boot pas) c'est à cause du BIOS et de sa configuration (le setup). On peut accéder au setup et le modifier en pressant une touche dès la mise sous tension du PC. Selon les fabricants, cette touche est Suppr, F2, F10 … (la touche à utiliser est souvent très brièvement affichée au tout début du démarrage).
 
+![Pile](http://www2.futaie.org:4280/~rousselotv/lp/pile-bios-ordinateur.png)
+
+*La pile bouton d'une carte mère*
+
+
 ###Rôle du BIOS
 
 Le BIOS teste le matériel et y applique les réglages mémorisés dans le setup, tout en s'assurant qu'il n'existe pas de dysfonctionnement matériel et que tout est présent dans la machine, mémoire CPU principalement. Ensuite il regarde la présence des périphériques nécessaires au boot : lecteur de disquette, cd rom, dvd rom, clef usb, mais surtout disque dur. Si vous avez installé un système d'exploitation Linux ou Windows, le BIOS est normalement configuré pour activer le MBR (Master Boot Record ou *zone amorçe* qu'on verra dans un autre chapitre) de celui ci, les étapes du démarrage peuvent alors commencer…. 
