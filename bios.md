@@ -19,7 +19,7 @@ Le BIOS teste le matériel et y applique les réglages mémorisés dans le setup
 
 Il peut aussi fournir un ensemble de services permettant de faire le plus possible abstraction de la couche matérielle. Ces services sont utilisés par le système d'exploitation et sont accessibles via certaines zones mémoires (40:00 par exemple) ou certaines interruptions logicielles (10h, 11h, 12h et 13h notamment). Cependant, dans la pratique, les systèmes d'exploitation modernes n'utilisent ces services que lors de l'amorçage. Ils utilisent ensuite soit leurs propres pilotes, soit les fonctions ACPI pour les opérations liées à la carte mère.
 
-Peu importe comment le fabricant a développé cette carte mère (quels composants il a choisis, peu importe comment fonctionne le « hardware » de cette carte mère), en utilisant les mêmes fonctions du BIOS sur deux cartes mères différentes, on obtiendra le même résultat. Les systèmes d'exploitation peuvent utiliser ces fonctions, au moins pendant les premières étapes du démarrage de l'ordinateur, et ensuite lors du fonctionnement normal.
+Peu importe comment le fabricant a développé cette carte mère (quels composants il a choisi, comment fonctionne la partie  hardware de cette carte mère), en utilisant les mêmes fonctions du BIOS sur deux cartes mères différentes, on obtiendra le même résultat. Les systèmes d'exploitation peuvent utiliser ces fonctions, au moins pendant les premières étapes du démarrage de l'ordinateur, et ensuite lors du fonctionnement normal.
 
 ![Bios](http://www2.futaie.org:4280/~rousselotv/lp/Award_BIOS_setup_utility.png)
 
