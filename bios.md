@@ -50,4 +50,8 @@ Le BIOS étant le firmware lancé au démarrage, il peut être la cible de logic
 
 Depuis que les mises à jour du BIOS peuvent être réalisées à la volée via le programmateur interne de la carte mère, il est possible que ceux-ci soient la cible d'attaques de type *man in the middle*.
 
+##Sources
+
+- [Wikipédia BIOS](https://fr.wikipedia.org/wiki/Basic_Input_Output_System)
+- [Wiki linuxpedia](http://www.linuxpedia.fr/doku.php/util/boot)
 
